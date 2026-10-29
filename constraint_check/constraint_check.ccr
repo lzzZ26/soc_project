@@ -1,0 +1,48 @@
+##### Written on 2026/10/20 05:24:03 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	system_top
+
+Constraint File(s) : 
+	D:/ICT/fpga/soc_project/soc_project/pnr/mes50hp_soc.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 1 critical warning(s), 2 warning(s), out of 82 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:key1_n} {PAP_IO_NONE}      {TRUE}
+	W: ConstraintEditor-4031: [D:/ICT/fpga/soc_project/soc_project/pnr/mes50hp_soc.fdc(line number: 31)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_PULLUP will overwrite the old attribute PAP_IO_NONE.
+
+define_attribute {p:key1_n} {PAP_IO_LOC}       {K18}
+	C: ConstraintEditor-2002: [D:/ICT/fpga/soc_project/soc_project/pnr/mes50hp_soc.fdc(line number: 28)] | Port key1_n has been placed at location K18, whose type is share pin.
+
+define_attribute {p:uart0_rx} {PAP_IO_NONE}      {TRUE}
+	W: ConstraintEditor-4031: [D:/ICT/fpga/soc_project/soc_project/pnr/mes50hp_soc.fdc(line number: 48)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_PULLUP will overwrite the old attribute PAP_IO_NONE.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

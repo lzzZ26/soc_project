@@ -1,0 +1,11 @@
+Seed,State,UserFilter,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),Routing Arc Length,Worst Slack(place),Worst Slack(pre route),Wire Length,Power
+0,OK,1,1.266,6.820,0.152,0.110,11.936,14.110,0.622,0.470,460354,1896,NA,1.79769e+308,NA
+1,OK,1,0.689,6.292,0.157,0.112,11.444,13.792,1.685,1.187,470360,2151,NA,1.79769e+308,NA
+2,OK,1,0.651,6.379,0.171,0.122,13.089,15.042,0.663,0.499,461763,1320,NA,1.79769e+308,NA
+3,OK,1,0.508,6.200,0.025,0.019,11.713,14.040,1.002,0.710,451595,2236,NA,1.79769e+308,NA
+
+
+Best Slack Seed:0
+
+The Filter strategies is .
+"A UserFilter of 1 means the filter condition is satisfied, otherwise it is 0."

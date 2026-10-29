@@ -1,0 +1,4 @@
+Verilog-4094: [D:/ICT/fpga/soc_project/soc_project/mcu_system/cmsdk_axi_memory/cmsdk_ahb_ram_beh.v(line number: 146)] Continuous assignment target rdata_out_0 must be net type
+Verilog-4094: [D:/ICT/fpga/soc_project/soc_project/mcu_system/cmsdk_axi_memory/cmsdk_ahb_ram_beh.v(line number: 147)] Continuous assignment target rdata_out_1 must be net type
+Verilog-4094: [D:/ICT/fpga/soc_project/soc_project/mcu_system/cmsdk_axi_memory/cmsdk_ahb_ram_beh.v(line number: 148)] Continuous assignment target rdata_out_2 must be net type
+Verilog-4094: [D:/ICT/fpga/soc_project/soc_project/mcu_system/cmsdk_axi_memory/cmsdk_ahb_ram_beh.v(line number: 149)] Continuous assignment target rdata_out_3 must be net type

@@ -1,0 +1,42 @@
+version,2022.2-SP6.1<build 138931>
+project name,build_hybrid_pnr.pds
+
+Multi Place Seed:
+Seed,State,Convergence,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),PBM-GP,PBM-PreGP,PBM-PostGP,LP,Total Placement Cpu Time,Detailed routing,Total Routing Cpu Time,Wire Length After Post-GP,Wire Length After LP,Wire Length After DP,Routing Arc Length,Worst Slack After GP Timing,Worst Slack After LP Timing,Worst Slack Before RP,Worst Slack Before DP,Worst Slack After DP,Worst Slack After Placement,Worst Slack After TA By Preroute,TNS After DP,TNS Before Route,Setup(Slow) Total Failing TNS,Setup(Slow) Total Failing Endpoints,Hold(Slow) Total Failing THS,Hold(Slow) Total Failing Endpoints,Power
+seed_0,OK,OK,1.266,6.820,0.152,0.110,11.936,14.110,0.622,0.470,NA,NA,NA,2.61,124.62,134.94,199.06,NA,NA,NA,460354,NA,NA,-620,NA,NA,1896,NA,NA,0,0.000,0,0.000,0,NA
+seed_1,OK,OK,0.689,6.292,0.157,0.112,11.444,13.792,1.685,1.187,NA,NA,NA,2.47,119.70,169.61,218.45,NA,NA,NA,470360,NA,NA,-2654,NA,NA,2151,NA,NA,0,0.000,0,0.000,0,NA
+seed_2,OK,OK,0.651,6.379,0.171,0.122,13.089,15.042,0.663,0.499,NA,NA,NA,2.52,105.69,105.80,163.00,NA,NA,NA,461763,NA,NA,-942,NA,NA,1320,NA,NA,0,0.000,0,0.000,0,NA
+seed_3,OK,OK,0.508,6.200,0.025,0.019,11.713,14.040,1.002,0.710,NA,NA,NA,1.95,105.98,127.59,210.59,NA,NA,NA,451595,NA,NA,-1535,NA,NA,2236,NA,NA,0,0.000,0,0.000,0,NA
+Pass Rate/Convergence Rate,100.00%,100.00%
+
+Synthesize:
+control_set,270
+Synthesize Performance Summary:
+slack category,Synthesize Setup WNS,Synthesize Setup TNS,Synthesize Recovery WNS,Synthesize Recovery TNS
+slack value,-2.586,-6382.540,13.727,0.000
+Synthesize Process Cpu Time,0h:2m:14s
+
+Device Map:
+Device Map Resource Usage Summary:
+Logic Utilization,LUT,FF,DRM,APM,Distributed RAM,HSSTHP,USCM,HCKB,RCKB
+Used,32176,12116,64.5,44,288,NA,1,NA,0
+Available,42800,64200,134,84,17000,NA,30,NA,24
+Utilization(%),76%,19%,49%,53%,2%,NA,4%,NA,0%
+Device Map Process Cpu Time,0h:0m:16s
+
+Project Configurations:
+top module,system_top
+compile,
+synthesize," -ads "
+device map,
+place & route," -force_to_run 
+ -gplace_times 4 
+ -parallel 2 
+ -enable_route_constraint_iterate 
+ -route_constraint_slack 0.5 
+ -optimize_multi_corner_timing 
+ -report_timing "
+
+Test Parameters Configurations:
+testparam,
+
